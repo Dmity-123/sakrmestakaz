@@ -1,0 +1,214 @@
+div {
+	background: url ("https://image.freepik.com/free-vector/social-media-logo-collection_69286-192.jpg");
+}
+body {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+  height: 100%;
+  background-position: center;
+}
+h1 {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+h2 {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+  background: url("https://i.gifer.com/7dDt.gif");
+}
+h3 {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+h4 {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+p {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+  background: url("https://i.gifer.com/7dDt.gif");
+}
+a {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+  background: url("https://i.gifer.com/7dDt.gif");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.parallax {
+  height: 100vh;
+  background-color: #eee;
+  background-image: url("https://i.gifer.com/61J.gif");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.header-title {
+  font-size: 140px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: auto;
+  mix-blend-mode: overlay;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .2);
+  display: flex;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  font-size: 0;
+  width: 790px;
+  margin: 100px auto 50px;
+}
+
+.card {
+  padding: 45px 45px 70px 45px;
+  margin-bottom: 60px;
+  width: 100%;
+  display: inline-block;
+  margin-right: 90px;
+  box-shadow: 4px 4px 5px rgba(250, 50, 50, .4);
+  margin-left: 1px;
+}
+
+.card-title {
+  margin-bottom: 100px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.card-text {
+  font-size:20px;
+  color: black;
+  background: white;
+  
+}
+.card-image {
+  margin-bottom: 25px;
+  width: 100%;
+  padding: 10px;
+  background: url("https://i.gifer.com/AIvM.gif");
+}
+.no-right-margin {
+  margin-right: 0;
+  background: white;
+}
+.footer {
+  height: 300px;
+  background-color: #000;
+  display: flex;
+}
+
+.footer-author {
+  color: white;
+  font-size: 15px;
+  margin: auto;
+  background: url("https://i.gifer.com/AIvM.gif");
+}
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+    text-align: center;
+    width: 48px;
+    height: 100%;
+    float: left;
+    background: url("https://image.freepik.com/free-vector/social-media-logo-collection_69286-192.jpg");
+	border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+.github a:hover {
+	background: #191919; 
+	color: #fff;
+	}
+.youtube a:hover {
+	background: #c4302b; 
+	color: #fff;
+	}
+.google-pluse a:hover {
+	background: #DD4B39; 
+	color: #fff;
+	}
+.twitter a:hover {
+	background-image: url("data:image/png;base64,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");
+	background: #00acee; 
+	color: #fff;
+	}
+.instagram a:hover {
+	background: #3f729b; 
+	color: #fff;
+	}
+.facebook a:hover {
+	background: #3b5998; 
+	color: #fff;
+	}
+.skype a:hover {
+	background: #00aff0; 
+	color: #fff;
+	}
+.vk a:hover {
+	background: #5d84ae; 
+	color: #fff;
+	}
+.odnoklassniki a:hover {
+	background: #f93; 
+	color: #fff;
+	}
+.pinterest a:hover {
+	background: #c8232c; 
+	color: #fff;
+	}
+.linkedin a:hover {
+	background: #0e76a8; 
+	color: #fff;
+	}
+.telegram a:hover {
+	background: #249bd7; 
+	color: #fff;
+	}
+.tumblr a:hover {
+	background: #34526f; 
+	color: #fff;
+	}
+.windows a:hover {
+	background: #125acd; 
+	color: #fff;
+	}
+.whatsapp a:hover {
+	background: #50b154; 
+	color: #fff;
+	}
+.weibo a:hover {
+	background: #d52b2b; 
+	color: #fff;
+	}
+.dropbox a:hover {
+	background: #1087dd; 
+	color: #fff;
+}
